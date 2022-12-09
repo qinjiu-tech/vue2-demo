@@ -1,3 +1,10 @@
+<!--
+ * @Author: QinJiu
+ * @Date: 2022-12-09 15:03:57
+ * @LastEditors: Qinjiu
+ * @LastEditTime: 2022-12-09 16:16:15
+ * @Description: -
+-->
 <template>
   <div class="hello">
     <h1>{{ msg }}</h1>
@@ -32,6 +39,8 @@
 </template>
 
 <script>
+import ElementUI from 'element-ui';
+import 'element-ui/lib/theme-chalk/index.css';
 export default {
   name: 'HelloWorld',
   props: {
